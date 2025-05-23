@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <!-- Logo ImageView at the top -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bookshop_logo"
+        android:layout_marginBottom="14dp" />
+
+    <!-- Username Field -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textColorHint="@color/black"/>
+
+    <!-- Address Field -->
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textColorHint="@color/black"/>
+
+    <!-- NIC Field -->
+    <EditText
+        android:id="@+id/nic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIC"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textColorHint="@color/black"/>
+
+    <!-- Gender Field -->
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="@color/black"/>
+
+    <!-- Contact Number Field -->
+    <EditText
+        android:id="@+id/contactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:textColorHint="@color/black"/>
+
+    <!-- Save Profile Button -->
+    <Button
+        android:id="@+id/btnSaveProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#E91E63"
+        android:text="Save Profile"
+        android:layout_marginBottom="44dp"/>
+
+    <!-- View Reviews Button -->
+    <Button
+        android:id="@+id/btnViewReviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:text="View Reviews"
+        android:layout_marginTop="8dp" />
+
+    <!-- Add Review Button -->
+    <Button
+        android:id="@+id/btnAddReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:text="Add Review"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

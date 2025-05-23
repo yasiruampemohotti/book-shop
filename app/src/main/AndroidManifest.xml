@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookshop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bookshop_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bookshop_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BookShop">
+
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".LoginActivity"
+            android:exported="true" />
+        <activity android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity android:name=".ViewReviewActivity"
+            android:exported="false" />
+        <activity android:name=".AddReviewActivity"
+            android:exported="false" />
+        <activity android:name=".RegistrationActivity"
+            android:exported="false" />
+
+        <!-- Add this attribute to other activities with intent filters as needed -->
+    </application>
+</manifest>

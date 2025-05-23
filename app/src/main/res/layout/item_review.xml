@@ -1,0 +1,82 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    android:padding="8dp">
+
+    <!-- Book Name and Rating in the same row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end|center_vertical"> <!-- Aligns items to the right and center vertically -->
+
+        <TextView
+            android:id="@+id/bookName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Book Name"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressTint="#FFEB3B"
+            android:rating="4"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:stepSize="0.5" />
+    </LinearLayout>
+
+
+    <!-- ISBN below the Book Name in gray color -->
+    <TextView
+        android:id="@+id/isbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ISBN"
+        android:textColor="#2A2828"
+        android:textSize="14sp" />
+
+    <!-- Review text in italic below the ISBN -->
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Where to Buy below the review -->
+    <TextView
+        android:id="@+id/whereToBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where to Buy"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Username aligned to the right bottom corner, small and bold -->
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

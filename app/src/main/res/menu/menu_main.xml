@@ -1,0 +1,14 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/view_reviews"
+        android:title="View Reviews"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/add_review"
+        android:title="Add Review"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "444709145960",
+    "firebase_url": "https://book-f0793-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "book-f0793",
+    "storage_bucket": "book-f0793.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444709145960:android:a00f6da84c892eecfc9add",
+        "android_client_info": {
+          "package_name": "com.example.bookshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDktC6XpOnN9QHyKCHiQPZh-E2saxTQydk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
